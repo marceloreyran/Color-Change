@@ -1,56 +1,67 @@
 
 body {
-    flex: 1;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+    flex-direction: row;
     min-height: 100vh;
     min-width: 100vw;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: rgb(0, 0, 128);
-    background-color: #f4f4f4;
+    background-color: azure;
     margin: 0;
     padding: 0;
 
 }
+h1 {
+    font-size: 3rem;
+    margin: 40px;
+    padding: 0;
+    color: rgb(250, 235, 215);
+    text-align: center;
+    border-radius: 10px;
 
+}
 a {
-    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 51, 51);
     text-decoration: none;
 }
 
 *::selection {  
-    background: #333;
-    color: #fff;
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
 }
 
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 auto;
 }
 
 
 button {
     display: flex;
-    align-items: center;
     justify-content: center;
-    outline: none;
+    text-align: center;
+    align-items: center;
+    margin: 0;
     cursor: pointer;
-    width: 150px;
+    width: 100x;
     height: 50px;
-    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
-    border-radius: 30px;
-    border: 1px solid #8F9092;
+    background-image: linear-gradient(to top, rgb(216, 217, 219) 0%, rgb(255, 255, 255) 80%, rgb(253, 253, 253) 100%);
+    border-radius: 10px;
+    border: 2px solid rgb(143, 144, 146);
     transition: all 0.2s ease;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 600;
-    color: #606060;
-    text-shadow: 0 1px #fff;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 1px rgb(255, 255, 255);
 }
 
 button:hover{
@@ -65,3 +76,4 @@ button:active{
 button:focus{
     box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
 }
+
